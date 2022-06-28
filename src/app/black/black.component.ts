@@ -11,7 +11,7 @@ export class BlackComponent implements OnInit {
   constructor(private messageservice: MessageService) { }
 
   ngOnInit(): void {
-    
+    console.log("Sample");
   }
   sendMessage(message:any){
     this.messageservice.sendMessage(message);
